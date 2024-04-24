@@ -1,7 +1,7 @@
 package com.kartheek.productservice.service;
 
-import com.microservice.productservice.model.ProductDetailsResDTO;
-import com.microservice.productservice.model.ProductReqDTO;
+import com.kartheek.productservice.model.ProductDetailsResDTO;
+import com.kartheek.productservice.model.ProductReqDTO;
 import org.springframework.stereotype.Repository;
 
 @Repository

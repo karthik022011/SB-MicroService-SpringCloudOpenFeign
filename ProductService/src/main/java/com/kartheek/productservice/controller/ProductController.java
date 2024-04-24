@@ -1,8 +1,8 @@
 package com.kartheek.productservice.controller;
 
-import com.microservice.productservice.model.ProductDetailsResDTO;
-import com.microservice.productservice.model.ProductReqDTO;
-import com.microservice.productservice.service.ProductService;
+import com.kartheek.productservice.model.ProductDetailsResDTO;
+import com.kartheek.productservice.model.ProductReqDTO;
+import com.kartheek.productservice.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

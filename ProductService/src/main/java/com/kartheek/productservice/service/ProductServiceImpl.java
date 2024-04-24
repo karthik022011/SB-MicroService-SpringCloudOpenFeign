@@ -1,9 +1,9 @@
 package com.kartheek.productservice.service;
 
-import com.microservice.productservice.entity.Product;
-import com.microservice.productservice.model.ProductDetailsResDTO;
-import com.microservice.productservice.model.ProductReqDTO;
-import com.microservice.productservice.repository.ProductRepository;
+import com.kartheek.productservice.entity.Product;
+import com.kartheek.productservice.model.ProductDetailsResDTO;
+import com.kartheek.productservice.model.ProductReqDTO;
+import com.kartheek.productservice.repository.ProductRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

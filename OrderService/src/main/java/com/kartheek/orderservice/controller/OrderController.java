@@ -1,8 +1,9 @@
 package com.kartheek.orderservice.controller;
 
 
-import com.microservice.orderservice.model.OrderReqDtO;
-import com.microservice.orderservice.service.OrderService;
+
+import com.kartheek.orderservice.model.OrderReqDtO;
+import com.kartheek.orderservice.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +18,7 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
-    @PostMapping("/placeorder")
+    @PostMapping("/placeOrder")
     public ResponseEntity<Long> placeOrder(@RequestBody OrderReqDtO orderReqDtO) {
        long orderId = orderService.placeOrder(orderReqDtO);
        return new ResponseEntity<>(orderId, HttpStatus.OK);
